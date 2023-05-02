@@ -1,0 +1,61 @@
+.info_wrapper {
+   margin: 15px;
+   display: flex;
+   flex-direction: column;
+   gap: 20px;
+   text-align: center;
+   align-items: center;
+   color: rgb(37, 123, 208);
+}
+
+.info_wrapper button {
+   width: 200px;
+   padding: 5px;
+   background-color: chartreuse;
+   color: darkgreen;
+   font-size: 18px;
+   border-radius: 7px;
+   border: 1px solid green;
+   box-shadow: 3px 2px 3px darkslategray;
+   cursor: pointer;
+   transition: all 0.5s;
+}
+
+.info_wrapper button:hover {
+   background-color: darkcyan;
+   color: aliceblue;
+   font-size: 20px;
+}
+
+.info_wrapper p {
+   font-size: 22px;
+   color: rgb(59, 161, 161);
+   font-weight: 600;
+}
+
+/*.btns_wrapper {
+   margin: 30px;
+   display: flex;
+   gap: 20px;
+   background-color: rgb(251, 218, 117);
+   padding: 25px;
+   width: 80%;
+}
+
+button {
+   padding: 5px;
+   background-color: chartreuse;
+   color: darkgreen;
+   font-size: 18px;
+   border-radius: 7px;
+   border: 1px solid green;
+   box-shadow: 3px 2px 3px darkslategray;
+   cursor: pointer;
+   transition: all 0.5s;
+}
+
+button:hover {
+   background-color: darkcyan;
+   color: aliceblue;
+   font-size: 20px;
+}*/

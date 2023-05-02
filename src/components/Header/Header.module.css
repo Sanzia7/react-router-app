@@ -1,0 +1,41 @@
+.header_wrapper {
+   padding: 0px 25px;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   height: 180px;
+   background-color: rgb(247, 226, 112);
+}
+
+.logo {
+   width: 100px;
+   height: 100px;
+   background-color: coral;
+   border-radius: 50%;
+}
+
+.menu_wrapper {
+   display: flex;
+   gap: 50px;
+   font-size: 24px;
+}
+
+button {
+   width: 200px;
+   padding: 5px;
+   margin: 10px;
+   background-color: chartreuse;
+   color: darkgreen;
+   font-size: 18px;
+   border-radius: 7px;
+   border: 1px solid green;
+   box-shadow: 3px 2px 3px darkslategray;
+   cursor: pointer;
+   transition: all 0.5s;
+}
+
+button:hover {
+   background-color: darkcyan;
+   color: aliceblue;
+   font-size: 20px;
+}

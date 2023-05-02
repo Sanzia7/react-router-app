@@ -1,0 +1,10 @@
+.goods_wrapper {
+   padding: 10px;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   gap: 20px;
+   border: 1px dashed rgb(5, 75, 187);
+}
+
+
