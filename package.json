@@ -1,6 +1,6 @@
 {
-  "name": "myapp",
-  "homepage": "",
+  "name": "react-router",
+  "homepage": "https://sanzia7.github.io/react-router-app/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
