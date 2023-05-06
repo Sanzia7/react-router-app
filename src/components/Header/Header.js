@@ -1,4 +1,4 @@
-import { useNavigate } from 'react-router-dom'
+import { NavLink, useNavigate } from 'react-router-dom'
 import styles from './Header.module.css'
 
 function Header() {
@@ -14,10 +14,10 @@ function Header() {
          <div className={styles.logo}></div>
          <button onClick={goBack} >Назад</button>
          <div className={styles.menu_wrapper}>
-            <a href='/'>Home</a>
-            <a href='/goods'>Goods</a>
-            <a href='/about'>About</a>
-            <a href='/contacts'>Contacts</a>
+            <NavLink to='/'>Home</NavLink>
+            <NavLink to='/goods'>Goods</NavLink>
+            <NavLink to='/about'>About</NavLink>
+            <NavLink to='/contacts'>Contacts</NavLink>
          </div>
       </div>
    )

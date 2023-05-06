@@ -3,7 +3,7 @@ import './App.css'
 import GoodsPage from "./components/Pages/GoodsPage/GoodsPage";
 import AboutPage from "./components/Pages/AboutPage/AboutPage";
 import ContactsPage from "./components/Pages/ContactsPage/ContactsPage";
-import {Routes, Route} from 'react-router-dom'
+import {Routes, Route, BrowserRouter} from 'react-router-dom'
 import NotFoundPage from "./components/Pages/NotFoundPage/NotFoundPage";
 import HomePage from "./components/Pages/HomePage/HomePage";
 import ProductInfoPage from "./components/Pages/ProductInfoPage/ProductInfoPage";
@@ -13,6 +13,7 @@ function App() {
 
   return (
     <div>
+      <BrowserRouter>
         <Header />
         <Routes>
           <Route path="/" element={<HomePage />} />
@@ -25,7 +26,10 @@ function App() {
         <div>
           2023(c) by Telran school
         </div>
-    
+      </BrowserRouter>
+        <div>
+          2023(c) by Telran school
+        </div>
     </div>
   );
 }
