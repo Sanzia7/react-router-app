@@ -1,4 +1,4 @@
-import { Link } from 'react-router-dom'
+import { NavLink } from 'react-router-dom'
 import styles from './GoodItem.module.css'
 
 
@@ -8,12 +8,12 @@ function GoodItem(props) {
 
    return (
       <div className={styles.goods_wrapper}>
-         <Link to={`/goods/${id}`}>           
+         <NavLink to={`/goods/${id}`}>           
             <div style={{ display: 'flex', gap: '7px' }}>
                <h3>{`${id})`}</h3>
                <h3>{title}</h3>
             </div>
-         </Link>
+         </NavLink>
          <div style={{ display: 'flex', gap: '15px', color: 'red'}}>
             <p>Price: {price} $ </p>
             <p> Count: {count}</p>
