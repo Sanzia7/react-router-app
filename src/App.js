@@ -13,7 +13,6 @@ function App() {
 
   return (
     <div>
-      <BrowserRouter>
         <Header />
         <Routes>
           <Route path="/" element={<HomePage />} />
@@ -23,10 +22,6 @@ function App() {
           <Route path="/contacts" element={<ContactsPage />} />
           <Route path="*" element={<NotFoundPage />} />
         </Routes>
-        <div>
-          2023(c) by Telran school
-        </div>
-      </BrowserRouter>
         <div>
           2023(c) by Telran school
         </div>
